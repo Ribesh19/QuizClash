@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/round_corner_black"
+    android:elevation="0dp"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/btnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnGeneral"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="General Knowledge"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSports"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="SPORTS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnScience"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Science"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnChemistry"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Chemistry"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnFootball"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Football"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnPhysics"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Physics"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnGeography"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Geography"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
